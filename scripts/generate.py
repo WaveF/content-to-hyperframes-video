@@ -17,7 +17,7 @@ import ssl
 from urllib.request import Request, urlopen
 from urllib.error import URLError
 
-API_KEY = "KEY_REMOVED"
+API_KEY = os.environ.get("FRAMEFLY_API_KEY", "")
 BASE_URL = "https://relay.framefly.com.cn/v1"
 OUTPUT_DIR = "/tmp"
 
