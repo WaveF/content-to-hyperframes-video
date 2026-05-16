@@ -14,14 +14,14 @@
 
 ## 本地图片生成
 
-默认使用 **z-image-turbo-4bit** 模型（通过 [mlx-studio](https://github.com/fal-ai/mlx-studio) 本地部署），端点位于 `http://localhost:8080`。
+默认使用 **z-image-turbo-4bit** 模型（通过 [mlxstudio](https://github.com/jjang-ai/mlxstudio) 本地部署），端点位于 `http://localhost:8080`。
 
 ### 启动服务
 
 ```bash
-# 克隆并启动 mlx-studio
-git clone https://github.com/fal-ai/mlx-studio
-cd mlx-studio
+# 克隆并启动 mlxstudio
+git clone https://github.com/jjang-ai/mlxstudio
+cd mlxstudio
 pip install -r requirements.txt
 python main.py --model z-image-turbo-4bit
 ```
