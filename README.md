@@ -36,6 +36,8 @@ curl http://localhost:8080/v1/images/generations \
     "prompt": "modern conference room, clean minimalist, blue ambient light",
     "negative_prompt": "blurry, watermark, text",
     "steps": 9,
+    "guidance": 0,
+    "seed": -1,
     "width": 768,
     "height": 512,
     "n": 1
